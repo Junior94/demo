@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Chat Bot</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+  </head>
+  <body>
+    <div id="app" class="app">
+      <div class="contacts">
+        <!-- Profiles -->
+        <div class="contacts--profiles">
+          <div class="contacts--profiles-avatar">
+            <img src="https://www.actu-france.com/wp-content/uploads/2015/03/benzema-france.jpg" alt="avatar" />
+          </div>
+          <div class="contacts--profiles-name">
+            <span>Karim Benzema</span>
+          </div>
+        </div>
+        <!-- List -->
+        <div class="contacts--list">
+          <ul>
+            <li>
+              <div class="contacts--list-item">
+                <div class="contacts--list-item-avatar">
+                  <img src="https://www.sportelawards.com/wp-content/uploads/2018/01/deschamps-300x300.png" alt="avatar" />
+                </div>
+                <div class="contacts--list-item-name">
+                  <span>Didier Deschamps</span>
+                </div>
+                <div class="contacts--list-item-counter">
+                  <span>1</span>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="contacts--list-item">
+                <div class="contacts--list-item-avatar">
+                  <img src="https://cryptonaute.fr/wp-content/uploads/2020/05/NcSME1lI_400x400-1-300x300.jpg" alt="avatar" />
+                </div>
+                <div class="contacts--list-item-name">
+                  <span>Kylian Mbappé</span>
+                </div>
+                <div class="contacts--list-item-counter">
+                  <span>23</span>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="contacts--list-item">
+                <div class="contacts--list-item-avatar">
+                  <img src="https://brandandcelebrities.com/wp-content/uploads/2016/01/tag-heuer-recrute-varane-2016-e1453885967335-300x300.jpg" alt="avatar" />
+                </div>
+                <div class="contacts--list-item-name">
+                  <span>Raphael Varane</span>
+                </div>
+                <div class="contacts--list-item-counter">
+                  <span>5</span>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="contacts--list-item">
+                <div class="contacts--list-item-avatar">
+                  <img src="https://static.onzemondial.com/annuaire/43556/logo-upamecano.jpg" alt="avatar" />
+                </div>
+                <div class="contacts--list-item-name">
+                  <span>Dayot Upecamecano</span>
+                </div>
+                <div class="contacts--list-item-counter">
+                  <span>11</span>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="contacts--list-item">
+                <div class="contacts--list-item-avatar">
+                  <img src="https://tel.img.pmdstatic.net/fit/https.3A.2F.2Fprd2-tel-epg-img.2Es3-eu-west-1.2Eamazonaws.2Ecom.2FproviderPerson.2Fa895e6bfb85a903c0.2Ejpeg/300x300/quality/80/presnel-kimpembe.jpeg" alt="avatar" />
+                </div>
+                <div class="contacts--list-item-name">
+                  <span>Presnel Kimpembe</span>
+                </div>
+                <div class="contacts--list-item-counter">
+                  <span>2</span>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="contacts--list-item">
+                <div class="contacts--list-item-avatar">
+                  <img src="https://lh3.googleusercontent.com/proxy/Z7f_sV_KunnHCFqnqyNcSrUK5kblOq7RWdwSLycStfHw2qp8skHTdZdcudiaP1jQzPRHf_5oOTMLFhR3m6VGOYv4GhSFo2NWMA89Cv8Wt0kSRx_gdtvoW4oz_wya6tq1qS0bm65R" alt="avatar" />
+                </div>
+                <div class="contacts--list-item-name">
+                  <span>Olivier Giroud</span>
+                </div>
+                <div class="contacts--list-item-counter">
+                  <span>112</span>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="contacts--list-item">
+                <div class="contacts--list-item-avatar">
+                  <img src="https://lifestyle.boursorama.com/wp-content/uploads/2020/04/lifestyle-griezmann-300x300.jpg?x20714" alt="avatar" />
+                </div>
+                <div class="contacts--list-item-name">
+                  <span>Antoine Griezmann</span>
+                </div>
+                <div class="contacts--list-item-counter">
+                  <span>32</span>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="contacts--list-item">
+                <div class="contacts--list-item-avatar">
+                  <img src="https://tel.img.pmdstatic.net/fit/https.3A.2F.2Fprd2-tel-epg-img.2Es3-eu-west-1.2Eamazonaws.2Ecom.2FproviderPerson.2Fd7f4d3a60f78638a.2Ejpeg/300x300/quality/80/benjamin-pavard.jpeg" alt="avatar" />
+                </div>
+                <div class="contacts--list-item-name">
+                  <span>Benjamin Pavard</span>
+                </div>
+                <div class="contacts--list-item-counter">
+                  <span>0</span>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- Messages -->
+      <div class="messages">
+        <div class="clear"></div>
+        <div class="messages--received">
+          <div class="messages--received-status">
+            <div class="messages--received-status-avatar">
+               <img src="https://www.sportelawards.com/wp-content/uploads/2018/01/deschamps-300x300.png" width="50px" alt="avatar">
+            </div>
+            <div class="messages--received-status-name">
+              <span>Didier Deschamps</span>
+            </div>
+            <div class="messages--received-status-date">
+              <span>08/09/20</span>
+            </div>
+          </div>
+          <div class="messages--received-text">
+            <p>Tu dors Karim ?</p>
+          </div>
+        </div>
+        <div class="clear"></div>
+        <div class="messages--send">
+          <div class="messages--send-status">
+            <div class="messages--send-status-avatar">
+              <img src="https://www.actu-france.com/wp-content/uploads/2015/03/benzema-france.jpg" width="60px"  alt="avatar">
+            </div>
+            <div class="messages--send-status-name">
+              <span>Moi</span>
+            </div>
+            <div class="messages--send-status-date">
+              <span>08/09/20</span>
+            </div>
+          </div>
+          <div class="messages--send-text">
+            <p>Non plus maintenant... Qu'est-ce que tu veux ?</p>
+          </div>
+        </div>
+        <div class="clear"></div>
+        <div class="messages--received">
+          <div class="messages--received-status">
+            <div class="messages--received-status-avatar">
+               <img src="https://www.sportelawards.com/wp-content/uploads/2018/01/deschamps-300x300.png" width="50px" alt="avatar">
+            </div>
+            <div class="messages--received-status-name">
+              <span>Didier Deschamps</span>
+            </div>
+            <div class="messages--received-status-date">
+              <span>08/09/20</span>
+            </div>
+          </div>
+          <div class="messages--received-text">
+            <p>J'ai bien refléchi, c'était injuste et immoral de ma part de ne pas te selectionner... Malgré nos différends tu restes un joueur très talentueux.</p>
+          </div>
+        </div>
+        <div class="clear"></div>
+        <div class="messages--send">
+          <div class="messages--send-status">
+            <div class="messages--send-status-avatar">
+              <img src="https://www.actu-france.com/wp-content/uploads/2015/03/benzema-france.jpg" width="60px"  alt="avatar">
+            </div>
+            <div class="messages--send-status-name">
+              <span>Moi</span>
+            </div>
+            <div class="messages--send-status-date">
+              <span>08/09/20</span>
+            </div>
+          </div>
+          <div class="messages--send-text">
+            <p>Tu le penses sincèrement ?</p>
+          </div>
+        </div>
+        <div class="clear"></div>
+        <div class="messages--received">
+          <div class="messages--received-status">
+            <div class="messages--received-status-avatar">
+               <img src="https://www.sportelawards.com/wp-content/uploads/2018/01/deschamps-300x300.png" width="50px" alt="avatar">
+            </div>
+            <div class="messages--received-status-name">
+              <span>Didier Deschamps</span>
+            </div>
+            <div class="messages--received-status-date">
+              <span>08/09/20</span>
+            </div>
+          </div>
+          <div class="messages--received-text">
+            <p>Non carrément pas, bonne soirée.</p>
+          </div>
+        </div>
+        <div class="clear"></div>
+        <div class="messages--send">
+          <div class="messages--send-status">
+            <div class="messages--send-status-avatar">
+              <img src="https://www.actu-france.com/wp-content/uploads/2015/03/benzema-france.jpg" width="60px"  alt="avatar">
+            </div>
+            <div class="messages--send-status-name">
+              <span>Moi</span>
+            </div>
+            <div class="messages--send-status-date">
+              <span>08/09/20</span>
+            </div>
+          </div>
+          <div class="messages--send-text">
+            <p>...</p>
+          </div>
+        </div>
+        <div class="clear"></div>
+        <div class="messages--received">
+          <div class="messages--received-status">
+            <div class="messages--received-status-avatar">
+               <img src="https://www.sportelawards.com/wp-content/uploads/2018/01/deschamps-300x300.png" width="50px" alt="avatar">
+            </div>
+            <div class="messages--received-status-name">
+              <span>Didier Deschamps</span>
+            </div>
+            <div class="messages--received-status-date">
+              <span>08/09/20</span>
+            </div>
+            <div class="messages--received-text">
+              <p>...</p>
+            </div>
+          </div>
+        </div>
+        <div class="clear"></div>
+        <div class="messages--send">
+          <div class="messages--send-status">
+            <div class="messages--send-status-avatar">
+              <img src="https://www.actu-france.com/wp-content/uploads/2015/03/benzema-france.jpg" width="60px"  alt="avatar">
+            </div>
+            <div class="messages--send-status-name">
+              <span>Moi</span>
+            </div>
+            <div class="messages--send-status-date">
+              <span>08/09/20</span>
+            </div>
+            <div class="messages--send-text">
+              <p>...</p>
+            </div>
+          </div>
+        </div>
+       <div class="typezone">
+       <form>
+        <textarea type="text" placeholder="Écrivez votre messages--send"></textarea><input type="submit" class="send" value=""/></form>
+      </div>
+  </body>
+</html>
